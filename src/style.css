@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url('img/regis.png') no-repeat center center;
+    background-size: cover;
+    padding-left: 10%;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #4682B4;
+    text-decoration: underline;
+    padding-left: 40%;
+  }
+  
+  .input-field {
+    max-width: 380px;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    height: 55px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+  }
+  
+  .input-field input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .input-field input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+  }
+  
+  .input-field img {
+    width: 30px;
+    margin-top: 12px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .actions a {
+    color: #4682B4;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .actions a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #f1f100;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e2e200;
+  }
+  
